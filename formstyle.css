@@ -1,0 +1,108 @@
+
+.container{
+    background-color: rgba(255, 202, 65, 0.69);
+    display: flex;
+    width:fit-content;
+    border-radius: 15px;
+    justify-content:start;
+    align-items: start;
+    width: 500px;
+    height: 400px;
+    margin: auto;
+   
+
+    
+}
+
+.nombre {
+    width: 99%;
+    padding: 0px 35px;
+    border: 2px;
+    border-radius: 10px;
+    border-bottom: 10px;
+    position: relative;
+    border: solid 1px;
+
+}
+
+.email{
+    width: 99%;
+    padding: 0px 43px;
+    border: 2px;
+    border-radius: 10px;
+    border-bottom: 10px;
+    border: solid 1px;
+   
+}
+
+.telefono{
+    width: 99%;
+    padding: 0px 33px;
+    border: 2px;
+    border-radius: 10px;
+    border-bottom: 10px;
+    border: solid 1px;
+
+}
+.asunto{
+    width: 99%;
+    padding: 0px 36px;
+    border: 2px;
+    border-radius: 10px;
+    border-bottom: 10px;
+    border: solid 1px;
+    
+}
+.mensaje{
+    width: 99%;
+    padding: 10px 30px;
+    border: 2px;
+    border-radius: 10px;
+    border-bottom: 10px;
+    border: solid 1px;
+    
+}
+.enviar{
+    font-size: 15px;
+    justify-content: center;
+    background-color: rgba(255, 202, 65, 0.69);
+    border-radius: 10px;
+    border-color: none;
+    border: none;
+    position: sticky;
+    cursor: pointer;
+    margin: auto;
+
+
+}
+
+
+.container-2{
+   border: solid 1px;
+    display: flex;
+    width:fit-content;
+    border-radius: 15px;
+    justify-content:start;
+    align-items: start;
+    width: 500px;
+    height: 400px;
+    margin: auto;
+
+}
+.enviar :hover{
+            opacity: 0.75;
+
+}
+
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+
+}
+
+.div-1{
+    font-size: 15px;
+    
+    
+}

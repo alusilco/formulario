@@ -5,31 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formularios</title>
+    <link rel="stylesheet" href="formstyle.css">
 </head>
 <body>
+  <div class="container">
    <form action="resultados.html"> 
    <div>
-        <label for="nombre">Nombre</label>
-        <input name="nombre" id="nombre"/>
+        <label  for="nombre">Nombre</label>
+        <input class="nombre" name="nombre" id="nombre" required/>
    </div>
-   <div>
 
-        <label for="email">email</label>
-        <input name="email" id="email"/>
+  
+    <div>
+     <p></p> 
+        <label  for="email">email</label>
+        <input  class="email" name="email" id="email" required/>
+        <p></p>
+  
+  <div>
+      <p></p>
+        <label  for="telefono">Teléfono</label>
+        <input class="telefono" name="telefono" id="telefono"/>
+       <p></p>
+</div>
+  <div>
+        <label  for="asunto">Asunto</label>
+        <input class="asunto" name="asunto" id="asunto" required/>
+        <p></p>
   </div>
   <div>
-        <label for="telefono">Teléfono</label>
-        <input name="telefono" id="telefono"/>
-  </div>
-  <div>
-        <label for="asunto">Asunto</label>
-        <input name="asunto" id="asunto"/>
-  </div>
-  <div>
+      <p></p>
      <label for="mensaje">Mensaje</label>
-     <Textarea name="mensaje" id="Mensaje" ></Textarea></div>
-     
-     <button>Enviar</button>
-
-</body>
+     <textarea  class="mensaje" name="label" id="Mensaje" required ></textarea>
+    </div>
+  </div>
+</div>
+<div><class="container-2">
+    <input class="checkbox" type="checkbox" id="checkbox">
+    <span class="div-1">He leído y acepto la Política de Privacidad.</span>    
+    <div><button class="enviar">Enviar</button></div>
+  </div>
+  </body>
 </html>
